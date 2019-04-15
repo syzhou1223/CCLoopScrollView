@@ -1,0 +1,22 @@
+{
+  "name": "CCLoopScrollView",
+  "version": "0.1.0",
+  "summary": "A short description of CCLoopScrollView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhoushaoyou/CCLoopScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhoushaoyou": "zhoushaoyou@coocaa.com"
+  },
+  "source": {
+    "git": "https://github.com/zhoushaoyou/CCLoopScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCLoopScrollView/Classes/**/*"
+}

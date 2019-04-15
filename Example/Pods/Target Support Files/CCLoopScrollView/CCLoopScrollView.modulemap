@@ -1,0 +1,6 @@
+framework module CCLoopScrollView {
+  umbrella header "CCLoopScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

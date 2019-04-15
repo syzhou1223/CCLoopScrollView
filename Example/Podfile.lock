@@ -1,0 +1,16 @@
+PODS:
+  - CCLoopScrollView (0.1.0)
+
+DEPENDENCIES:
+  - CCLoopScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  CCLoopScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCLoopScrollView: 8178fdb5c4121c8be13aa89553f0e2739841fb2a
+
+PODFILE CHECKSUM: 255965a49f3bf3a2b9654d2046011b3cbc570fb6
+
+COCOAPODS: 1.5.3

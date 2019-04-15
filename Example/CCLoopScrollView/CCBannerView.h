@@ -9,9 +9,26 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@interface CCBannerView : UIView  {
+    UIImageView *_posterImgv;
+    UILabel *_titleLabel;
+}
 
-@interface CCBannerView : UIView
+/**
+ * 设置Banner图片url
+ */
+- (void)setPosterUrl:(NSString *)url;
+
+/**
+ * @desc 设计banner标题
+ */
+- (void)setTitle:(NSString *)title;
+
+- (void)setPoster:(UIImage *)img;
+
+
 
 @end
+
 
 NS_ASSUME_NONNULL_END

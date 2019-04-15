@@ -1,0 +1,6 @@
+framework module Pods_CCLoopScrollView_Tests {
+  umbrella header "Pods-CCLoopScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

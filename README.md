@@ -21,7 +21,7 @@ pod 'CCLoopScrollView'
 ```
 
 ## 运行效果
-
+<img src="https://github.com/syzhou1223/CCLoopScrollView/blob/master/Example/CCLoopScrollView/screenshot.gif">
 
 ## 使用示例
 ```Objective-C
@@ -46,7 +46,8 @@ loopScrollViewBottom.pageViewEdgeInset = UIEdgeInsetsMake(0, 5, 0, 5);
 loopScrollViewBottom.autoScrollAnimationType = kCAMediaTimingFunctionEaseOut;
 loopScrollViewBottom.autoScrollDelay = 2.0;
 loopScrollViewBottom.maxPageViewCounts = 5;
-[self.view addSubview:loopScrollViewBottom];```
+[self.view addSubview:loopScrollViewBottom];
+```
 
 
 ## Author

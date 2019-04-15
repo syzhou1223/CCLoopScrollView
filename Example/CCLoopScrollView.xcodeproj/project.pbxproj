@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3EBAEECB22645900002E30C7 /* CCLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAEECA22645900002E30C7 /* CCLoopScrollView.m */; };
 		3EBAEECE2264605E002E30C7 /* CCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAEECD2264605E002E30C7 /* CCBannerView.m */; };
+		3EBAEED1226480C6002E30C7 /* screenshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3EBAEED0226480C6002E30C7 /* screenshot.gif */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +45,7 @@
 		3EBAEECA22645900002E30C7 /* CCLoopScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CCLoopScrollView.m; path = ../CCLoopScrollView/Classes/CCLoopScrollView.m; sourceTree = "<group>"; };
 		3EBAEECC2264605E002E30C7 /* CCBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBannerView.h; sourceTree = "<group>"; };
 		3EBAEECD2264605E002E30C7 /* CCBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBannerView.m; sourceTree = "<group>"; };
+		3EBAEED0226480C6002E30C7 /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CCLoopScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLoopScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3EBAEECF226480AF002E30C7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3EBAEED0226480C6002E30C7 /* screenshot.gif */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 				6003F5A6195388D20070C39A /* CCViewController.m */,
 				3EBAEECC2264605E002E30C7 /* CCBannerView.h */,
 				3EBAEECD2264605E002E30C7 /* CCBannerView.m */,
+				3EBAEECF226480AF002E30C7 /* Resource */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -289,6 +300,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3EBAEED1226480C6002E30C7 /* screenshot.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

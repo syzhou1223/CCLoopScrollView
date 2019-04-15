@@ -21,7 +21,7 @@ pod 'CCLoopScrollView'
 ```
 
 ## 运行效果
-![siri](https://github.com/syzhou1223/CCLoopScrollView/blob/master/Example/CCLoopScrollView/screenshot.gif)
+![img](https://github.com/syzhou1223/CCLoopScrollView/blob/master/Example/CCLoopScrollView/screenshot.gif)
 
 ## 使用示例
 ```Objective-C

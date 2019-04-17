@@ -30,12 +30,16 @@ loopScrollViewTop.delegate = self;
 loopScrollViewTop.autoScrollDelay = 2.0;
 [self.view addSubview:loopScrollViewTop];
 
+[loopScrollViewTop reloadData];
+
 #pragma mark - CCLoopScrollView Delegate
 - (NSInteger)numberOfPageInLoopScrollView:(CCLoopScrollView *)loopScrollView {
-    return [self getRandomNumber:1 to:_colors.count];
+    //指定有多少个page
+    return 10;
 }
 
 - (UIView *)loopScrollView:(CCLoopScrollView *)loopScrollView viewForPageAtIndex:(NSInteger)index withPosition:(NSInteger)position {
+    //自定义每一个Page的视图
     CCBannerView *pageView = (CCBannerView *)[loopScrollView dequeueReusableViewWithPosition:position];
     if (!pageView) {
         pageView = [[CCBannerView alloc] initWithFrame:loopScrollView.bounds];
